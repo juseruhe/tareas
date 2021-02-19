@@ -41,4 +41,11 @@ this.listTareas.splice(index,1);
 
   }
 
+
+  actualizarTarea(tarea: Tarea, index: number):void{
+
+this.listTareas[index].estado = !tarea.estado;
+
+  }
+
 }

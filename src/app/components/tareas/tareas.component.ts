@@ -33,4 +33,12 @@ export class TareasComponent implements OnInit {
 
   }
 
+
+  eliminarTarea(index: number): void{
+
+this.listTareas.splice(index,1);
+
+
+  }
+
 }

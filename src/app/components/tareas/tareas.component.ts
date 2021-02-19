@@ -18,7 +18,19 @@ export class TareasComponent implements OnInit {
 
   agregarTarea(){
 
-    
+   const tarea: Tarea = {
+
+    nombre: this.nombreTarea,
+    estado: false
+
+   }
+
+   this.listTareas.push(tarea);
+
+   this.nombreTarea = '';
+
+
+
   }
 
 }

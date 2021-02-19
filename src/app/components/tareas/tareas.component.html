@@ -7,9 +7,15 @@
             <div *ngIf="listTareas.length === 0" class="card mt-3 p-2">
                 <h6>No hay tareas para mostrar</h6>
             </div>
-            <ul class="list-group">
-<li *ngFor="let tarea of listTareas" class="list-group-item ">
+            <ul class="list-group ">
+<li *ngFor="let tarea of listTareas" class="list-group-item d-flex justify-content-between ">
+<span class="cursor">
+    <i class="fas fa-circle"></i>
+</span>
 {{tarea.nombre}}
+<span class="cursor text-danger"> 
+<i class="fas fa-trash"> </i> 
+</span>
 </li>
             </ul>
         </div>

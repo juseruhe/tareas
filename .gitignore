@@ -44,3 +44,19 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+
+#Ignorados para desplegar
+/e2e
+/src
+.browserlistrc
+.edutorconfig
+angular.json
+karma.conf.js
+package-lock-json
+package.json
+README.md
+tsconfig.app.json
+tsconfig.json
+tsconfig.spec.json
+tslint.json

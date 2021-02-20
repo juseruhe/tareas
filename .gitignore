@@ -1,7 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-#/dist
+/dist
 /tmp
 /out-tsc
 # Only exists if Bazel was run
@@ -47,16 +47,4 @@ Thumbs.db
 
 
 #Ignorados para desplegar
-/e2e
-/src
-.browserlistrc
-.edutorconfig
-angular.json
-karma.conf.js
-package-lock-json
-package.json
-README.md
-tsconfig.app.json
-tsconfig.json
-tsconfig.spec.json
-tslint.json
+
